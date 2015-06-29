@@ -1,0 +1,168 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.activities.CountTypeActivity"
+    android:orientation="vertical"
+    android:id="@+id/llCountTypeMainLayout">
+
+    <TextView
+        android:id="@+id/tvScanInstruction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Run a full survey of the entire store today @ 20:30 HRS"
+        android:layout_gravity="center_horizontal"
+        android:textSize="10sp"
+        android:layout_marginTop="40dip"/>
+
+    <RelativeLayout
+        android:id="@+id/rlScanCount"
+        android:layout_width="280dip"
+        android:layout_height="55dip"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/shadow_background_remain"
+        android:layout_marginTop="40dip">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SCAN COUNT"
+            android:textSize="23sp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dip"/>
+
+        <ImageView
+            android:id="@+id/ivScanCountStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cross_icon"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="12dip"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlPhysicalCount"
+        android:layout_width="280dip"
+        android:layout_height="55dip"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/shadow_background_remain"
+        android:layout_marginTop="18dip">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PHYSICAL COUNT"
+            android:layout_centerVertical="true"
+            android:textSize="23sp"
+            android:layout_marginLeft="15dip"/>
+
+        <ImageView
+            android:id="@+id/ivPhysicalCountStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cross_icon"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="12dip"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="240dip"
+        android:layout_height="120dip"
+        android:layout_gravity="center_horizontal"
+        android:background="#9BFDF4"
+        android:layout_marginTop="50dip">
+
+        <RelativeLayout
+            android:id="@+id/rlGuideLines"
+            android:layout_width="238dip"
+            android:layout_height="118dip"
+            android:layout_centerInParent="true">
+
+            <LinearLayout
+                android:id="@+id/llInstruction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/cross_icon"
+                        android:layout_marginLeft="10dip"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="MARK INDICATES NOT DONE"
+                        android:textSize="14sp"
+                        android:layout_marginTop="2dip"
+                        android:layout_marginLeft="7dip"
+                        android:layout_marginRight="10dip"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="10dip"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/tick_icon"
+                        android:layout_marginLeft="10dip"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:text="MARK INDICATES DONE"
+                        android:textSize="14sp"
+                        android:layout_marginTop="2dip"
+                        android:layout_marginLeft="7dip"
+                        android:layout_marginRight="10dip"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="10dip"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/workonprocess_icon"
+                        android:layout_marginLeft="10dip"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:text="MARK INDICATES PENDING"
+                        android:textSize="14sp"
+                        android:layout_marginTop="2dip"
+                        android:layout_marginLeft="7dip"
+                        android:layout_marginRight="10dip"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

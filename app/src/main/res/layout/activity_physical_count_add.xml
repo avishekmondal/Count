@@ -1,0 +1,155 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="70dip"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ADD STOCK"
+            android:layout_gravity="center"
+            android:textSize="22sp"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:background="#0FA983"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:gravity="center"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Catagories     "
+            android:id="@+id/textView"
+            android:textSize="20sp"
+            android:layout_marginLeft="20dp"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:background="#0FA983"
+            android:layout_marginRight="30dp">
+
+            <AutoCompleteTextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/autoComplete"
+                android:background="#ffffffff"
+                android:paddingLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:completionThreshold="1"
+                android:singleLine="true"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="65dip"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:gravity="center|left">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Rack#          "
+            android:layout_marginLeft="20dp"/>
+
+        <LinearLayout
+            android:layout_width="50dip"
+            android:layout_height="45dip"
+            android:layout_marginLeft="20dip"
+            android:gravity="center"
+            android:background="#0FA983">
+
+            <EditText
+                android:id="@+id/etRackNo"
+                android:layout_width="39dip"
+                android:layout_height="33dip"
+                android:inputType="text"
+                android:gravity="center"
+                android:cursorVisible="true"
+                android:background="#FFFFFF"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="65dip"
+        android:orientation="horizontal"
+        android:gravity="center|left"
+        android:id="@+id/llThree"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="No of items"
+            android:layout_marginLeft="20dp"/>
+
+        <LinearLayout
+            android:layout_width="50dip"
+            android:layout_height="45dip"
+            android:layout_marginLeft="20dip"
+            android:gravity="center"
+            android:background="#0FA983">
+
+            <EditText
+                android:id="@+id/etNoOfItems"
+                android:layout_width="39dip"
+                android:layout_height="33dip"
+                android:inputType="number"
+                android:gravity="center"
+                android:cursorVisible="true"
+                android:background="#FFFFFF"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llAddCount"
+        android:layout_width="150dip"
+        android:layout_height="50dip"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:clickable="true"
+        android:background="@drawable/button_shadow_border">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ADD"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:textSize="23sp"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="hello_world">Привет, Мир</string>
+    <string name="str_count">считать</string>
+    <string name="btn_en">Английский</string>
+    <string name="btn_ru">Русский</string>
+    <string name="btn_de">Немецкий</string>
+    <string name="btn_fr">Французский</string>
+
+</resources>

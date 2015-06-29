@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:weightSum="5">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:background="@drawable/list_item_border"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tvBarcodeNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textColor="#0FA983"
+            android:layout_marginLeft="20dip"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:background="@drawable/list_item_border"
+        android:layout_weight="2">
+
+        <TextView
+            android:id="@+id/tvCountNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textColor="#0FA983"
+            android:layout_marginLeft="20dip"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:background="@drawable/list_item_border"
+        android:gravity="center"
+        android:layout_weight="2">
+
+        <!--<LinearLayout
+            android:id="@+id/llDeleteRecord"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="8dip"
+            android:gravity="center"
+            android:background="@drawable/button_shadow_border">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DELETE"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"/>
+
+        </LinearLayout>-->
+
+        <ImageView
+            android:id="@+id/ivDeleteRecord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/delete_icon"
+            android:padding="4dip"/>
+
+    </LinearLayout>
+
+</LinearLayout>

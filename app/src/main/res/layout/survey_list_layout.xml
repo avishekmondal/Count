@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <LinearLayout
+        android:id="@+id/llBtnSurvey"
+        android:layout_width="match_parent"
+        android:layout_height="90dip"
+        android:orientation="horizontal"
+        android:layout_marginTop="9dip"
+        android:layout_marginBottom="9dip"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:clickable="true"
+        android:background="@drawable/shadow_background_remain">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="15dip"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvSurveyTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="XXXX Survey"
+                android:textSize="25sp"
+                />
+
+            <TextView
+                android:id="@+id/tvSurveyTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20 HRS"
+                android:textSize="15sp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="right|center_vertical"
+            android:layout_marginRight="10dip"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ivSurveyStatusIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/cross_icon"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

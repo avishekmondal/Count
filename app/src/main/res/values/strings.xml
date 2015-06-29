@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Count</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="hello_world">Hello world!</string>
+    <string name="str_count">Count</string>
+    <string name="btn_en">English</string>
+    <string name="btn_ru">Russian</string>
+    <string name="btn_de">German</string>
+    <string name="btn_fr">French</string>
+
+    <array name="menu_item">
+        <item>Home</item>
+        <item>Admin</item>
+        <item>Language</item>
+        <item>Logout</item>
+    </array>
+
+    <string name="open_drawer">Drawer Open</string>
+    <string name="close_drawer">Drawer Close</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_schedule">ScheduleActivity</string>
+    <string name="title_activity_count_type">CountTypeActivity</string>
+    <string name="title_activity_scan_screen">ScanScreenActivity</string>
+    <string name="title_activity_nobarcode">NobarcodeActivity</string>
+    <string name="title_activity_count_resunt">CountResuntActivity</string>
+    <string name="title_activity_find_item">FindItemActivity</string>
+    <string name="title_activity_find_no_barcode">FindNoBarcodeActivity</string>
+
+</resources>

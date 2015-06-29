@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="hello_world">Hallo Welt</string>
+    <string name="str_count">zählen</string>
+    <string name="btn_en">Englisch</string>
+    <string name="btn_ru">Russisch</string>
+    <string name="btn_de">Deutsch</string>
+    <string name="btn_fr">Französisch</string>
+
+</resources>
